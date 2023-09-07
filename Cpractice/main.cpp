@@ -2,7 +2,8 @@
 
 int main()
 {
-    printf("Helloworld\n");
+    printf("Hello KNU!\n");
+    printf("Hello SW!\n");
 
     return 0;
 }
