@@ -1,10 +1,9 @@
-#define _CRT_SECURE_NO_WARNINGS
+/* 쌓을 층의 수를 입력 받아 피라미드를 만드는 프로그램 */
+
 #include <stdio.h>
 
 int main()
 {
-    printf("Hello KNU!\n");
-    printf("Hello SW!\n");
     int i, j, k, n = 0;
 
     printf(" 피라미드를 몇 층으로 쌓을지 정하시오. : ");
@@ -14,7 +13,7 @@ int main()
 
     for (i = 0; i < n; i++)
     {
-        for (j = i; j <= n - 1; j++)
+        for (j = i; j < n - 1; j++)
         {
             printf(" ");
         }
