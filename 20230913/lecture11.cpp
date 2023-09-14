@@ -13,8 +13,7 @@ int main()
             i++;
             continue;
         }
-        while (j <= 10)
-        {
+        while (j <= 10){
             printf("%d * %d = %d\n", i, j, i * j);
             j++;
         }
