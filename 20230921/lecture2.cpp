@@ -1,31 +1,31 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int sum(double num1, double num2) {
+double sum(double num1, double num2) {
     double sum_1;
     sum_1 = (num1 + num2);
-    printf("%d + %d = %d", num1, num2, sum_1);
+    printf("%lf + %lf = %lf", num1, num2, sum_1);
     return 0;
 }
 
-int sub(double num1, double num2) {
+double sub(double num1, double num2) {
     double sub_1;
     sub_1 = num1 - num2;
-    printf("%d - %d = %d", num1, num2, sub_1);
+    printf("%lf - %lf = %lf", num1, num2, sub_1);
     return 0;
 }
 
-int mul(double num1, double num2) {
+double mul(double num1, double num2) {
     double mul_1;
     mul_1 = num1 * num2;
-    printf("%d + %d = %d", num1, num2, mul_1);
+    printf("%lf * %lf = %lf", num1, num2, mul_1);
 
     return 0;
 }
 
-int div(double num1, double num2) {
+double div(double num1, double num2) {
     double div_1;
     div_1 = num1 / num2;
-    printf("%d + %d = %d", num1, num2, div_1);
+    printf("%lf / %lf = %lf", num1, num2, div_1);
 
     return 0;
 }
