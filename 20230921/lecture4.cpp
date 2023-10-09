@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
@@ -28,18 +28,18 @@ int main() {
         circum = 4 * (of_circle / (float)count);
 
         if (count % 10000000 == 0) {
-            printf("%3d%% ÁøÇà.. ¿øÁÖÀ² : %lf  ", count / 10000000, circum);
+            printf("%3d%% ì§„í–‰.. ì›ì£¼ìœ¨ : %lf  ", count / 10000000, circum);
             full_square = (count * 0.00000002);
             for (i = 0; i < full_square; i++) {
-                printf("¡á ");
+                printf("â–  ");
             }
             for (j = 0; j < (20 - full_square); j++) {
-                printf("¡à ");
+                printf("â–¡ ");
             }
             printf("\n");
         }
         count++;
     }
 
-    printf("¿øÁÖÀ² : %lf\n", circum);
+    printf("ì›ì£¼ìœ¨ : %lf\n", circum);
 }
